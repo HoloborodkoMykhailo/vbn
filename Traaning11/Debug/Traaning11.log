@@ -1,3 +1,1 @@
-﻿  Source.cpp
-C:\Users\Mike\source\repos\Traaning11\Traaning11\Source.cpp(21,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  Traaning11.vcxproj -> C:\Users\Mike\source\repos\Traaning11\Debug\Traaning11.exe
+﻿  Traaning11.vcxproj -> C:\Users\Mike\source\repos\Traaning11\Debug\Traaning11.exe
