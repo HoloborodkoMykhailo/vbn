@@ -8,6 +8,7 @@ using namespace std;
 int** createM(int n);
 void showM(int** X, int n);
 void sort(int** X, int n);
+int sum(int** X, int n);
 
 int main()
 {
@@ -17,6 +18,8 @@ int main()
 	showM(X, n);
 	sort(X, n);
 	showM(X, n);
+	int s = sum(X, n);
+	cout << setw(5) << s;
 }
 
 int** createM(int n)
@@ -64,4 +67,17 @@ void sort(int** X, int n)
 			}
 		}
 	}
+}
+
+int sum(int** X, int n)
+{
+	int sum = 0;
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = 0; j < n; j++)
+		{
+			sum += X[i][j];
+		}
+	}
+	return sum;
 }
